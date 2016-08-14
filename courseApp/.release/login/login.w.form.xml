@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cbeyIvu" component="$model/UI2/system/components/justep/window/window" design="device:mobile;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cbeyIvu" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/input/password,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-black.cbeyIvu{color: rgb(0, 0, 0)} .text-danger.cbeyIvu{color: rgb(234, 65, 60)} .x-titlebar.cbeyIvu{background-color: rgb(234, 65, 60)} .img3.cbeyIvu{width: 50px; height: 50px} .input-group.cbeyIvu i.cbeyIvu{font-size: 24px} .input-group.cbeyIvu .input-group-addon.cbeyIvu{background-color: rgb(255, 255, 255); border: 0; border-radius: 0} .input-group.cbeyIvu .form-control.cbeyIvu{border: 0; border-radius: 0; color: rgb(153, 153, 153)} .input-group.cbeyIvu .form-control.cbeyIvu:focus{box-shadow: none; border-color: rgb(239, 239, 239)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cbeyIvu" class="cbeyIvu"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-card p699b036394cc465b9f49053fe0d8cb77-iosstatusbar cbeyIvu" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cbeyIvu"> 
+    <div class="x-panel-top cbeyIvu" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbeyIvu"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cbeyIvu" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cbeyIvu"> 
+        <div class="x-titlebar-left cbeyIvu" xid="div2" __cid="cbeyIvu"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-left cbeyIvu" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;返回&quot;}" __cid="cbeyIvu"> 
+            <i xid="i2" class="icon-chevron-left cbeyIvu" __cid="cbeyIvu"/>  
+            <span xid="span6" __cid="cbeyIvu" class="cbeyIvu">返回</span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cbeyIvu" xid="div3" __cid="cbeyIvu"/>  
+        <div class="x-titlebar-right  cbeyIvu" xid="div4" __cid="cbeyIvu">
+          <div class="empty cbeyIvu" __cid="cbeyIvu"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content  x-cards container cbeyIvu" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbeyIvu"> 
+      <div xid="div1" class="list-group cbeyIvu" __cid="cbeyIvu"> 
+        <div class="list-group-item cbeyIvu" __cid="cbeyIvu"> 
+          <div class="input-group cbeyIvu" xid="div7" __cid="cbeyIvu"> 
+            <span class="input-group-addon cbeyIvu" xid="span2" __cid="cbeyIvu"> 
+              <i class="icon-ios7-contact cbeyIvu" __cid="cbeyIvu"/> 
+            </span>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-inputText cbeyIvu" xid="nameInput" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;邮箱/手机号&quot;}" __cid="cbeyIvu"/> 
+          </div> 
+        </div>  
+        <div class="list-group-item cbeyIvu" xid="div6" __cid="cbeyIvu"> 
+          <div class="input-group cbeyIvu" xid="div8" __cid="cbeyIvu"> 
+            <span class="input-group-addon cbeyIvu" xid="span3" __cid="cbeyIvu"> 
+              <i class="icon-unlocked cbeyIvu" xid="i3" __cid="cbeyIvu"/> 
+            </span>  
+            <input component="$model/UI2/system/components/justep/input/password" class="form-control cbeyIvu" xid="password1" type="password" data-bind="component:{name:'$model/UI2/system/components/justep/input/password'}" data-config="{&quot;placeHolder&quot;:&quot;密码&quot;}" __cid="cbeyIvu"/>
+          </div> 
+        </div> 
+      </div>  
+      <a component="$model/UI2/system/components/justep/button/button" class="btn list-group x-black btn-only-label btn-block cbeyIvu" xid="loginBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:loginBtnClick" data-config="{&quot;label&quot;:&quot;登录&quot;}" __cid="cbeyIvu"> 
+        <i xid="i4" __cid="cbeyIvu" class="cbeyIvu"/>  
+        <span xid="span4" __cid="cbeyIvu" class="cbeyIvu">登录</span> 
+      </a>  
+      <div class="text-muted cbeyIvu" bind-text="'还可以选择以下方式登录'" __cid="cbeyIvu"/>  
+      <div class="list-group cbeyIvu" __cid="cbeyIvu">
+        <div class="list-group-item cbeyIvu" __cid="cbeyIvu"> 
+          <div component="$model/UI2/system/components/bootstrap/row/row" class="x-row  text-center cbeyIvu" xid="row1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cbeyIvu"> 
+            <div class="x-col  cbeyIvu" xid="col5" __cid="cbeyIvu"> 
+              <img src="" alt="" bind-attr-src="$model.toUrl('./img/weixin.png')" class="img3 cbeyIvu" xid="image2" __cid="cbeyIvu"/>  
+              <div bind-text="'微信账号登录'" class="text-muted cbeyIvu" xid="div15" __cid="cbeyIvu"/> 
+            </div>  
+            <div class="x-col  cbeyIvu" xid="col6" __cid="cbeyIvu"> 
+              <img src="" alt="" bind-attr-src="$model.toUrl('./img/weibo.png')" class="img3 cbeyIvu" xid="image1" __cid="cbeyIvu"/>  
+              <div bind-text="'新浪微博登录'" class="text-muted cbeyIvu" xid="div13" __cid="cbeyIvu"/> 
+            </div>  
+            <div class="x-col  cbeyIvu" xid="col7" __cid="cbeyIvu"> 
+              <img src="" alt="" xid="image4" bind-attr-src="$model.toUrl('./img/qq.png')" class="img3 cbeyIvu" __cid="cbeyIvu"/>  
+              <div bind-text="'QQ账号登录'" class="text-muted cbeyIvu" xid="div14" __cid="cbeyIvu"/> 
+            </div> 
+          </div>  
+          <div class="h5 cbeyIvu" __cid="cbeyIvu"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon pull-right cbeyIvu" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cbeyIvu"> 
+              <i xid="i1" class="icon-ios7-arrow-right text-muted cbeyIvu" __cid="cbeyIvu"/>
+              <span xid="span5" __cid="cbeyIvu" class="cbeyIvu"/>
+            </a>
+            <span xid="span8" class="text-black cbeyIvu" __cid="cbeyIvu">没有账号？</span>  
+            <span class="text-danger cbeyIvu" xid="register" bind-click="registerClick" __cid="cbeyIvu">注册</span> 
+          </div> 
+        </div>
+      </div> 
+    </div>  
+    <style __cid="cbeyIvu" class="cbeyIvu">.x-panel.p699b036394cc465b9f49053fe0d8cb77-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p699b036394cc465b9f49053fe0d8cb77-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p699b036394cc465b9f49053fe0d8cb77-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p699b036394cc465b9f49053fe0d8cb77-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p699b036394cc465b9f49053fe0d8cb77-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p699b036394cc465b9f49053fe0d8cb77-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p699b036394cc465b9f49053fe0d8cb77-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p699b036394cc465b9f49053fe0d8cb77-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p699b036394cc465b9f49053fe0d8cb77-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

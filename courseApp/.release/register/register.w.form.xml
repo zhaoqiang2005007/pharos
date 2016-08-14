@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window ciaI3mq" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="ciaI3mq" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/controlGroup/controlGroup,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.name.ciaI3mq{margin-top: 20px; margin-left: 30px; font-size: 20px; color: rgb(204, 204, 204)} .borde.ciaI3mq{border-bottom: rgb(204, 204, 204) 1px solid} .yanzheng.ciaI3mq{margin-top: 40px} .form-control.ciaI3mq{margin-top: 16px; border: 0px rgb(204, 204, 204) solid} .x-titlebar.ciaI3mq{background-color: rgb(234, 65, 60)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="ciaI3mq" class="ciaI3mq"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p056d0c8dc9264033832151fed0ad6ae7-iosstatusbar ciaI3mq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ciaI3mq"> 
+    <div class="x-panel-top ciaI3mq" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:48}" __cid="ciaI3mq"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar ciaI3mq" xid="titleBar1" style="height:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;用户注册&quot;}" __cid="ciaI3mq"> 
+        <div class="x-titlebar-left ciaI3mq" xid="div1" __cid="ciaI3mq"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ciaI3mq" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;}" __cid="ciaI3mq"> 
+            <i xid="i1" class="icon-chevron-left ciaI3mq" __cid="ciaI3mq"/>  
+            <span xid="span1" __cid="ciaI3mq" class="ciaI3mq"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title ciaI3mq" xid="div2" __cid="ciaI3mq">用户注册</div>  
+        <div class="x-titlebar-right  ciaI3mq" xid="div3" __cid="ciaI3mq">
+          <div class="empty ciaI3mq" __cid="ciaI3mq"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content ciaI3mq" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciaI3mq"> 
+      <div component="$model/UI2/system/components/justep/controlGroup/controlGroup" class="x-control-group ciaI3mq" xid="controlGroup3" data-bind="component:{name:'$model/UI2/system/components/justep/controlGroup/controlGroup'}" data-config="{&quot;title&quot;:&quot;title&quot;}" __cid="ciaI3mq"> 
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control ciaI3mq" xid="name" style="font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;用户名&quot;}" __cid="ciaI3mq"/>  
+        <div xid="div5" class="borde ciaI3mq" __cid="ciaI3mq"/>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control ciaI3mq" xid="input1" style="font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;6-12位字母数字组合密码&quot;}" __cid="ciaI3mq"/>  
+        <div xid="div6" class="borde ciaI3mq" __cid="ciaI3mq"/>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control ciaI3mq" xid="input2" style="font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;确认密码&quot;}" __cid="ciaI3mq"/>  
+        <div xid="div6" class="borde ciaI3mq" __cid="ciaI3mq"/>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control ciaI3mq" xid="input3" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;所在学校名称&quot;}" __cid="ciaI3mq"/>
+        <div xid="div4" class="borde ciaI3mq" __cid="ciaI3mq"/>
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control ciaI3mq" xid="input5" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;兴趣爱好&quot;}" __cid="ciaI3mq"/>
+        <div xid="div7" class="borde ciaI3mq" __cid="ciaI3mq"/>
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control ciaI3mq" xid="input6" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;年龄&quot;}" __cid="ciaI3mq"/>
+        <div xid="div8" class="borde ciaI3mq" __cid="ciaI3mq"/>
+        <div component="$model/UI2/system/components/justep/row/row" class="x-row yanzheng ciaI3mq" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ciaI3mq"> 
+          <div class="x-col x-col-fixed ciaI3mq" xid="col1" style="width:auto;" __cid="ciaI3mq"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link ciaI3mq" xid="button2" style="font-size:16px;color:#FF0000;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;+86&gt;&quot;}" __cid="ciaI3mq"> 
+              <i xid="i2" __cid="ciaI3mq" class="ciaI3mq"/>  
+              <span xid="span2" __cid="ciaI3mq" class="ciaI3mq">+86&amp;gt;</span> 
+            </a> 
+          </div>  
+          <div class="x-col ciaI3mq" xid="col2" __cid="ciaI3mq"> 
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control ciaI3mq" xid="tel" style="font-size:16px;margin-top:0px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;135XXXXXXXX&quot;}" __cid="ciaI3mq"/> 
+          </div>  
+          <div class="x-col x-col-fixed ciaI3mq" xid="col3" style="width:auto;" __cid="ciaI3mq"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link ciaI3mq" xid="button4" style="font-size:16px;color:#FF0000;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;获取验证码&quot;}" __cid="ciaI3mq"> 
+              <i xid="i4" __cid="ciaI3mq" class="ciaI3mq"/>  
+              <span xid="span4" __cid="ciaI3mq" class="ciaI3mq">获取验证码</span> 
+            </a> 
+          </div> 
+        </div>  
+        <div xid="div6" class="borde ciaI3mq" style="margin-top:-10px;" __cid="ciaI3mq"/>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control ciaI3mq" xid="input4" style="font-size:16px;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;短信验证码&quot;}" __cid="ciaI3mq"/>  
+        <div xid="div9" class="borde ciaI3mq" __cid="ciaI3mq"/>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default ciaI3mq" xid="regBtn" style="font-size:20px;width:100%;margin-top:60px;background-color:#FF0000;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:regBtnClick" data-config="{&quot;label&quot;:&quot;注册&quot;}" __cid="ciaI3mq"> 
+          <i xid="i5" __cid="ciaI3mq" class="ciaI3mq"/>  
+          <span xid="span5" __cid="ciaI3mq" class="ciaI3mq">注册</span> 
+        </a> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom ciaI3mq" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciaI3mq"/>  
+    <style __cid="ciaI3mq" class="ciaI3mq">.x-panel.p056d0c8dc9264033832151fed0ad6ae7-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p056d0c8dc9264033832151fed0ad6ae7-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p056d0c8dc9264033832151fed0ad6ae7-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p056d0c8dc9264033832151fed0ad6ae7-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p056d0c8dc9264033832151fed0ad6ae7-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p056d0c8dc9264033832151fed0ad6ae7-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p056d0c8dc9264033832151fed0ad6ae7-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p056d0c8dc9264033832151fed0ad6ae7-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p056d0c8dc9264033832151fed0ad6ae7-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

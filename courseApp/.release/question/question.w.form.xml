@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cbmQVzu" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cbmQVzu" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/panel/panel,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cbmQVzu" class="cbmQVzu"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p220760a458f5461bb9c082b19b661ed3-iosstatusbar cbmQVzu" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cbmQVzu"> 
+    <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-events="onOK:messageDialog1OK" data-config="{&quot;message&quot;:&quot;问题已经成功提交&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cbmQVzu" class="cbmQVzu">
+      <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cbmQVzu" __cid="cbmQVzu"/>
+      <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cbmQVzu" __cid="cbmQVzu">
+        <xhtml:div class="x-modal-inner cbmQVzu" __cid="cbmQVzu">
+          <xhtml:div class="x-modal-title cbmQVzu" __cid="cbmQVzu"></xhtml:div>
+          <xhtml:div class="x-modal-text cbmQVzu" __cid="cbmQVzu">问题已经成功提交</xhtml:div>
+          <xhtml:input class="x-modal-prompt-input cbmQVzu" type="text" __cid="cbmQVzu"/>
+        </xhtml:div>
+        <xhtml:div class="x-modal-buttons cbmQVzu" __cid="cbmQVzu">
+          <xhtml:a class="x-modal-button x-modal-button-bold OK cbmQVzu" value="ok" __cid="cbmQVzu">确定</xhtml:a>
+          <xhtml:a class="x-modal-button x-modal-button-bold Yes cbmQVzu" value="yes" __cid="cbmQVzu">是</xhtml:a>
+          <xhtml:a class="x-modal-button x-modal-button-bold No cbmQVzu" value="no" __cid="cbmQVzu">否</xhtml:a>
+          <xhtml:a class="x-modal-button x-modal-button-bold Cancel cbmQVzu" value="cancel" __cid="cbmQVzu">取消</xhtml:a>
+        </xhtml:div>
+      </xhtml:div>
+    </span>
+    <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog2" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;请输入问题标题&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cbmQVzu" class="cbmQVzu">
+      <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cbmQVzu" __cid="cbmQVzu"/>
+      <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cbmQVzu" __cid="cbmQVzu">
+        <xhtml:div class="x-modal-inner cbmQVzu" __cid="cbmQVzu">
+          <xhtml:div class="x-modal-title cbmQVzu" __cid="cbmQVzu"></xhtml:div>
+          <xhtml:div class="x-modal-text cbmQVzu" __cid="cbmQVzu">请输入问题标题</xhtml:div>
+          <xhtml:input class="x-modal-prompt-input cbmQVzu" type="text" __cid="cbmQVzu"/>
+        </xhtml:div>
+        <xhtml:div class="x-modal-buttons cbmQVzu" __cid="cbmQVzu">
+          <xhtml:a class="x-modal-button x-modal-button-bold OK cbmQVzu" value="ok" __cid="cbmQVzu">确定</xhtml:a>
+          <xhtml:a class="x-modal-button x-modal-button-bold Yes cbmQVzu" value="yes" __cid="cbmQVzu">是</xhtml:a>
+          <xhtml:a class="x-modal-button x-modal-button-bold No cbmQVzu" value="no" __cid="cbmQVzu">否</xhtml:a>
+          <xhtml:a class="x-modal-button x-modal-button-bold Cancel cbmQVzu" value="cancel" __cid="cbmQVzu">取消</xhtml:a>
+        </xhtml:div>
+      </xhtml:div>
+    </span>
+    <div class="x-panel-top cbmQVzu" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbmQVzu"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cbmQVzu" style="background-color:#FF8080;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;发问题&quot;}" __cid="cbmQVzu"> 
+        <div class="x-titlebar-left cbmQVzu" __cid="cbmQVzu"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cbmQVzu" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cbmQVzu"> 
+            <i class="icon-chevron-left cbmQVzu" __cid="cbmQVzu"/>  
+            <span __cid="cbmQVzu" class="cbmQVzu"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cbmQVzu" __cid="cbmQVzu">发问题</div>  
+        <div class="x-titlebar-right  cbmQVzu" __cid="cbmQVzu">
+          <div class="empty cbmQVzu" __cid="cbmQVzu"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cbmQVzu" xid="button2" style="font-weight:bold;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;label&quot;:&quot;确定&quot;}" __cid="cbmQVzu"> 
+            <i xid="i2" __cid="cbmQVzu" class="cbmQVzu"/>  
+            <span xid="span2" __cid="cbmQVzu" class="cbmQVzu">确定</span>
+          </a>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cbmQVzu" xid="content1" style="background-color:#EEEEEE;text-decoration:none;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbmQVzu"> 
+      <input component="$model/UI2/system/components/justep/input/input" class="form-control cbmQVzu" xid="input1" style="left:10px;right:10px;top:20px;position:relative;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;问题标题&quot;}" __cid="cbmQVzu"/>
+      <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control cbmQVzu" xid="textarea1" style="position:relative;top:40px;left:10px;right:10px;height:200px;" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" data-config="{&quot;placeHolder&quot;:&quot;问题内容&quot;}" __cid="cbmQVzu"/> 
+    </div>  
+    <style __cid="cbmQVzu" class="cbmQVzu">.x-panel.p220760a458f5461bb9c082b19b661ed3-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p220760a458f5461bb9c082b19b661ed3-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p220760a458f5461bb9c082b19b661ed3-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p220760a458f5461bb9c082b19b661ed3-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p220760a458f5461bb9c082b19b661ed3-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p220760a458f5461bb9c082b19b661ed3-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p220760a458f5461bb9c082b19b661ed3-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p220760a458f5461bb9c082b19b661ed3-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p220760a458f5461bb9c082b19b661ed3-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

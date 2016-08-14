@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cV3aqIb" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cV3aqIb" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cV3aqIb" class="cV3aqIb"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pf0642b1fe366469c808c768e72b59fd8-iosstatusbar cV3aqIb" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cV3aqIb"> 
+    <div class="x-panel-top cV3aqIb" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cV3aqIb"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cV3aqIb" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;文件下载例子&quot;}" __cid="cV3aqIb"> 
+        <div class="x-titlebar-left cV3aqIb" __cid="cV3aqIb"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cV3aqIb" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cV3aqIb"> 
+            <i class="icon-chevron-left cV3aqIb" __cid="cV3aqIb"/>  
+            <span __cid="cV3aqIb" class="cV3aqIb"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cV3aqIb" __cid="cV3aqIb">文件下载例子</div>  
+        <div class="x-titlebar-right  cV3aqIb" __cid="cV3aqIb">
+          <div class="empty cV3aqIb" __cid="cV3aqIb"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content  x-scroll-view cV3aqIb" xid="content1" _xid="C6F7F7DA4B0000019BF4121064101880" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cV3aqIb">
+      <div class="x-scroll cV3aqIb" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cV3aqIb"> 
+        <div class="x-content-center x-pull-down container cV3aqIb" xid="div1" __cid="cV3aqIb"> 
+          <i class="x-pull-down-img glyphicon x-icon-pull-down cV3aqIb" xid="i1" __cid="cV3aqIb"/>  
+          <span class="x-pull-down-label cV3aqIb" xid="span1" __cid="cV3aqIb">下拉刷新...</span>
+        </div>  
+        <div class="x-scroll-content cV3aqIb" xid="div2" __cid="cV3aqIb">
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cV3aqIb" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;data1&quot;}" __cid="cV3aqIb"> 
+            <ul class="x-list-template hide cV3aqIb" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cV3aqIb"> 
+              <li xid="li1" __cid="cV3aqIb" class="cV3aqIb">
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row cV3aqIb" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cV3aqIb"> 
+                  <div class="x-col x-col-50 x-col-center cV3aqIb" xid="col1" __cid="cV3aqIb">
+                    <div component="$model/UI2/system/components/justep/output/output" class="x-output cV3aqIb" xid="output1" data-bind="component:{ref:ref('fTitle'),name:'$model/UI2/system/components/justep/output/output'}" __cid="cV3aqIb"/>
+                  </div>  
+                  <div class="x-col x-col-20 x-col-center cV3aqIb" xid="col2" __cid="cV3aqIb"> 
+                    <div class="progress cV3aqIb" style="margin-bottom:0px;" xid="div5" __cid="cV3aqIb"> 
+                      <div class="progress-bar progress-bar-primary cV3aqIb" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" xid="progressbar1" __cid="cV3aqIb"/>
+                    </div>
+                  </div>
+                  <div class="x-col x-col-fixed x-col-center cV3aqIb" xid="col3" __cid="cV3aqIb">
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cV3aqIb" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:downLoadFile" data-config="{&quot;label&quot;:&quot;下载&quot;}" __cid="cV3aqIb"> 
+                      <i xid="i2" __cid="cV3aqIb" class="cV3aqIb"/>  
+                      <span xid="span3" __cid="cV3aqIb" class="cV3aqIb">下载</span>
+                    </a>  
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cV3aqIb" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:openFile" data-config="{&quot;label&quot;:&quot;打开&quot;}" __cid="cV3aqIb"> 
+                      <i xid="i3" __cid="cV3aqIb" class="cV3aqIb"/>  
+                      <span xid="span4" __cid="cV3aqIb" class="cV3aqIb">打开</span>
+                    </a> 
+                  </div>
+                </div>
+              </li>
+            </ul> 
+          </div>
+        </div>  
+        <div class="x-content-center x-pull-up cV3aqIb" xid="div3" __cid="cV3aqIb"> 
+          <span class="x-pull-up-label cV3aqIb" xid="span2" __cid="cV3aqIb">加载更多...</span>
+        </div> 
+      </div>
+    </div>  
+    <style __cid="cV3aqIb" class="cV3aqIb">.x-panel.pf0642b1fe366469c808c768e72b59fd8-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pf0642b1fe366469c808c768e72b59fd8-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pf0642b1fe366469c808c768e72b59fd8-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pf0642b1fe366469c808c768e72b59fd8-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pf0642b1fe366469c808c768e72b59fd8-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pf0642b1fe366469c808c768e72b59fd8-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pf0642b1fe366469c808c768e72b59fd8-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pf0642b1fe366469c808c768e72b59fd8-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pf0642b1fe366469c808c768e72b59fd8-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
